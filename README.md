@@ -2,6 +2,9 @@
 
 Simple application that shows a list of quests retrieved from API. Each quest has a list of venues and is being shown on the map.
 
+<img src="/images/01_quest_list.png" width="300">
+<img src="/images/02_detail_view.png" width="300">
+
 - Test application that explores the use of MVVM
 - Shows usage of implementing UI in storyboard, XIB files and creation programmatically
 - Shows the capability to make network request and parse the data received back through new Codable protocol and use of Generics. Connects to mock json server that provides the data
