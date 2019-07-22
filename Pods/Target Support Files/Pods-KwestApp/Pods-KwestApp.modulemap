@@ -1,0 +1,6 @@
+framework module Pods_KwestApp {
+  umbrella header "Pods-KwestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

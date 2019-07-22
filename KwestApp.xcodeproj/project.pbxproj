@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC8134322E46A0300B8BA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8134222E46A0300B8BA6E /* AppDelegate.swift */; };
+		1CC8134822E46A0300B8BA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8134622E46A0300B8BA6E /* Main.storyboard */; };
+		1CC8134A22E46A0300B8BA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8134922E46A0300B8BA6E /* Assets.xcassets */; };
+		1CC8134D22E46A0400B8BA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8134B22E46A0400B8BA6E /* LaunchScreen.storyboard */; };
+		1CC8136422E4723600B8BA6E /* QuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8136322E4723600B8BA6E /* QuestsViewController.swift */; };
+		1CC8136722E479B900B8BA6E /* QuestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8136622E479B900B8BA6E /* QuestCollectionViewCell.swift */; };
+		1CC8136922E47B1300B8BA6E /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8136822E47B1300B8BA6E /* NSObject+Extensions.swift */; };
+		1CC8136B22E47E2A00B8BA6E /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8136A22E47E2A00B8BA6E /* Quest.swift */; };
+		1CC8136F22E4892900B8BA6E /* QuestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8136E22E4892900B8BA6E /* QuestDetailViewController.swift */; };
+		1CC8137322E4937600B8BA6E /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137222E4937600B8BA6E /* URL+Extensions.swift */; };
+		1CC8137522E49CAC00B8BA6E /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137422E49CAC00B8BA6E /* QuestViewModel.swift */; };
+		1CC8137722E4A15E00B8BA6E /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137622E4A15E00B8BA6E /* APIResource.swift */; };
+		1CC8137922E4A16700B8BA6E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137822E4A16700B8BA6E /* APIService.swift */; };
+		1CC8137B22E4A4B700B8BA6E /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137A22E4A4B700B8BA6E /* Venue.swift */; };
+		1CC8137D22E4A78200B8BA6E /* QuestDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137C22E4A78200B8BA6E /* QuestDetailViewModel.swift */; };
+		1CC8137F22E4C08200B8BA6E /* VenueMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8137E22E4C08200B8BA6E /* VenueMapViewModel.swift */; };
+		1CC8138122E4C1B300B8BA6E /* VenueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8138022E4C1B300B8BA6E /* VenueViewModel.swift */; };
+		1CC813A422E525F800B8BA6E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC813A322E525F800B8BA6E /* View+Extensions.swift */; };
+		1CC813A622E5283C00B8BA6E /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC813A522E5283C00B8BA6E /* BottomSheetViewController.swift */; };
+		1CC813A822E52E9000B8BA6E /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC813A722E52E9000B8BA6E /* BottomSheetViewController.xib */; };
+		1CC813AA22E538A900B8BA6E /* BottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC813A922E538A900B8BA6E /* BottomSheetViewModel.swift */; };
+		1CC813AC22E53D3900B8BA6E /* VenueDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC813AB22E53D3900B8BA6E /* VenueDetailTableViewCell.xib */; };
+		1CC813AE22E53D5200B8BA6E /* VenueDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC813AD22E53D5200B8BA6E /* VenueDetailTableViewCell.swift */; };
+		6F873A864F672E7A40006623 /* Pods_KwestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C66D8497549B4476703A4A0 /* Pods_KwestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19DBF7D995D4B36C41C676B8 /* Pods-KwestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwestApp.release.xcconfig"; path = "Target Support Files/Pods-KwestApp/Pods-KwestApp.release.xcconfig"; sourceTree = "<group>"; };
+		1CC8133F22E46A0300B8BA6E /* KwestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC8134222E46A0300B8BA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC8134722E46A0300B8BA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CC8134922E46A0300B8BA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC8134C22E46A0400B8BA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CC8134E22E46A0400B8BA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC8136322E4723600B8BA6E /* QuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsViewController.swift; sourceTree = "<group>"; };
+		1CC8136622E479B900B8BA6E /* QuestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CC8136822E47B1300B8BA6E /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		1CC8136A22E47E2A00B8BA6E /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		1CC8136E22E4892900B8BA6E /* QuestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDetailViewController.swift; sourceTree = "<group>"; };
+		1CC8137222E4937600B8BA6E /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		1CC8137422E49CAC00B8BA6E /* QuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewModel.swift; sourceTree = "<group>"; };
+		1CC8137622E4A15E00B8BA6E /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		1CC8137822E4A16700B8BA6E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1CC8137A22E4A4B700B8BA6E /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		1CC8137C22E4A78200B8BA6E /* QuestDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDetailViewModel.swift; sourceTree = "<group>"; };
+		1CC8137E22E4C08200B8BA6E /* VenueMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapViewModel.swift; sourceTree = "<group>"; };
+		1CC8138022E4C1B300B8BA6E /* VenueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueViewModel.swift; sourceTree = "<group>"; };
+		1CC813A322E525F800B8BA6E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		1CC813A522E5283C00B8BA6E /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		1CC813A722E52E9000B8BA6E /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
+		1CC813A922E538A900B8BA6E /* BottomSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewModel.swift; sourceTree = "<group>"; };
+		1CC813AB22E53D3900B8BA6E /* VenueDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueDetailTableViewCell.xib; sourceTree = "<group>"; };
+		1CC813AD22E53D5200B8BA6E /* VenueDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailTableViewCell.swift; sourceTree = "<group>"; };
+		4C66D8497549B4476703A4A0 /* Pods_KwestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86009E3D97EB899FBA24147 /* Pods-KwestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwestApp.debug.xcconfig"; path = "Target Support Files/Pods-KwestApp/Pods-KwestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC8133C22E46A0300B8BA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F873A864F672E7A40006623 /* Pods_KwestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC8133622E46A0300B8BA6E = {
+			isa = PBXGroup;
+			children = (
+				1CC8134122E46A0300B8BA6E /* KwestApp */,
+				1CC8134022E46A0300B8BA6E /* Products */,
+				EF2E15F51560E827C355593A /* Pods */,
+				DA2458138D9E7AAA1C0A4F35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC8134022E46A0300B8BA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8133F22E46A0300B8BA6E /* KwestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC8134122E46A0300B8BA6E /* KwestApp */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8136522E4799D00B8BA6E /* Views */,
+				1CC8135622E46B2400B8BA6E /* Extensions */,
+				1CC8135722E46B2400B8BA6E /* Models */,
+				1CC8135822E46B2400B8BA6E /* Services */,
+				1CC8135522E46B2400B8BA6E /* ViewModels */,
+				1CC8135422E46B1D00B8BA6E /* Controllers */,
+				1CC8134222E46A0300B8BA6E /* AppDelegate.swift */,
+				1CC8134622E46A0300B8BA6E /* Main.storyboard */,
+				1CC8134922E46A0300B8BA6E /* Assets.xcassets */,
+				1CC8134B22E46A0400B8BA6E /* LaunchScreen.storyboard */,
+				1CC8134E22E46A0400B8BA6E /* Info.plist */,
+			);
+			path = KwestApp;
+			sourceTree = "<group>";
+		};
+		1CC8135422E46B1D00B8BA6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8136322E4723600B8BA6E /* QuestsViewController.swift */,
+				1CC8136E22E4892900B8BA6E /* QuestDetailViewController.swift */,
+				1CC813A522E5283C00B8BA6E /* BottomSheetViewController.swift */,
+				1CC813A722E52E9000B8BA6E /* BottomSheetViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1CC8135522E46B2400B8BA6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8137422E49CAC00B8BA6E /* QuestViewModel.swift */,
+				1CC8137C22E4A78200B8BA6E /* QuestDetailViewModel.swift */,
+				1CC8137E22E4C08200B8BA6E /* VenueMapViewModel.swift */,
+				1CC8138022E4C1B300B8BA6E /* VenueViewModel.swift */,
+				1CC813A922E538A900B8BA6E /* BottomSheetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1CC8135622E46B2400B8BA6E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8136822E47B1300B8BA6E /* NSObject+Extensions.swift */,
+				1CC8137222E4937600B8BA6E /* URL+Extensions.swift */,
+				1CC813A322E525F800B8BA6E /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1CC8135722E46B2400B8BA6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8136A22E47E2A00B8BA6E /* Quest.swift */,
+				1CC8137A22E4A4B700B8BA6E /* Venue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CC8135822E46B2400B8BA6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8137622E4A15E00B8BA6E /* APIResource.swift */,
+				1CC8137822E4A16700B8BA6E /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1CC8136522E4799D00B8BA6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8136622E479B900B8BA6E /* QuestCollectionViewCell.swift */,
+				1CC813AB22E53D3900B8BA6E /* VenueDetailTableViewCell.xib */,
+				1CC813AD22E53D5200B8BA6E /* VenueDetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA2458138D9E7AAA1C0A4F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C66D8497549B4476703A4A0 /* Pods_KwestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2E15F51560E827C355593A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A86009E3D97EB899FBA24147 /* Pods-KwestApp.debug.xcconfig */,
+				19DBF7D995D4B36C41C676B8 /* Pods-KwestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC8133E22E46A0300B8BA6E /* KwestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC8135122E46A0400B8BA6E /* Build configuration list for PBXNativeTarget "KwestApp" */;
+			buildPhases = (
+				574EADCE7AE4FE1673237FAE /* [CP] Check Pods Manifest.lock */,
+				1CC8133B22E46A0300B8BA6E /* Sources */,
+				1CC8133C22E46A0300B8BA6E /* Frameworks */,
+				1CC8133D22E46A0300B8BA6E /* Resources */,
+				1239CE028BA6E16CD699678F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwestApp;
+			productName = KwestApp;
+			productReference = 1CC8133F22E46A0300B8BA6E /* KwestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC8133722E46A0300B8BA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = irs;
+				TargetAttributes = {
+					1CC8133E22E46A0300B8BA6E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CC8133A22E46A0300B8BA6E /* Build configuration list for PBXProject "KwestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC8133622E46A0300B8BA6E;
+			productRefGroup = 1CC8134022E46A0300B8BA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC8133E22E46A0300B8BA6E /* KwestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC8133D22E46A0300B8BA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC8134D22E46A0400B8BA6E /* LaunchScreen.storyboard in Resources */,
+				1CC8134A22E46A0300B8BA6E /* Assets.xcassets in Resources */,
+				1CC8134822E46A0300B8BA6E /* Main.storyboard in Resources */,
+				1CC813A822E52E9000B8BA6E /* BottomSheetViewController.xib in Resources */,
+				1CC813AC22E53D3900B8BA6E /* VenueDetailTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1239CE028BA6E16CD699678F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwestApp/Pods-KwestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwestApp/Pods-KwestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwestApp/Pods-KwestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574EADCE7AE4FE1673237FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC8133B22E46A0300B8BA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC8136B22E47E2A00B8BA6E /* Quest.swift in Sources */,
+				1CC8136F22E4892900B8BA6E /* QuestDetailViewController.swift in Sources */,
+				1CC8136422E4723600B8BA6E /* QuestsViewController.swift in Sources */,
+				1CC8137F22E4C08200B8BA6E /* VenueMapViewModel.swift in Sources */,
+				1CC8138122E4C1B300B8BA6E /* VenueViewModel.swift in Sources */,
+				1CC8136722E479B900B8BA6E /* QuestCollectionViewCell.swift in Sources */,
+				1CC8137722E4A15E00B8BA6E /* APIResource.swift in Sources */,
+				1CC813A622E5283C00B8BA6E /* BottomSheetViewController.swift in Sources */,
+				1CC8137B22E4A4B700B8BA6E /* Venue.swift in Sources */,
+				1CC8137D22E4A78200B8BA6E /* QuestDetailViewModel.swift in Sources */,
+				1CC8137322E4937600B8BA6E /* URL+Extensions.swift in Sources */,
+				1CC813AA22E538A900B8BA6E /* BottomSheetViewModel.swift in Sources */,
+				1CC8137922E4A16700B8BA6E /* APIService.swift in Sources */,
+				1CC8137522E49CAC00B8BA6E /* QuestViewModel.swift in Sources */,
+				1CC8134322E46A0300B8BA6E /* AppDelegate.swift in Sources */,
+				1CC813A422E525F800B8BA6E /* View+Extensions.swift in Sources */,
+				1CC813AE22E53D5200B8BA6E /* VenueDetailTableViewCell.swift in Sources */,
+				1CC8136922E47B1300B8BA6E /* NSObject+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CC8134622E46A0300B8BA6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC8134722E46A0300B8BA6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC8134B22E46A0400B8BA6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC8134C22E46A0400B8BA6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC8134F22E46A0400B8BA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC8135022E46A0400B8BA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC8135222E46A0400B8BA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86009E3D97EB899FBA24147 /* Pods-KwestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV6FA5QMY9;
+				INFOPLIST_FILE = KwestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irs.KwestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1CC8135322E46A0400B8BA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DBF7D995D4B36C41C676B8 /* Pods-KwestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV6FA5QMY9;
+				INFOPLIST_FILE = KwestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irs.KwestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC8133A22E46A0300B8BA6E /* Build configuration list for PBXProject "KwestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC8134F22E46A0400B8BA6E /* Debug */,
+				1CC8135022E46A0400B8BA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC8135122E46A0400B8BA6E /* Build configuration list for PBXNativeTarget "KwestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC8135222E46A0400B8BA6E /* Debug */,
+				1CC8135322E46A0400B8BA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC8133722E46A0300B8BA6E /* Project object */;
+}
